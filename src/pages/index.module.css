@@ -1,0 +1,123 @@
+/**
+* CSS files with the .module.css suffix will be treated as CSS modules
+* and scoped locally.
+*/
+
+html[data-theme="dark"] header {
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.heroBanner {
+  padding: 2rem 0;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroBanner h1 {
+  font-size: 1.5em;
+  line-height: 1.2;
+}
+
+.heroBanner p {
+  color: #fffdfd;
+  font-size: 0.7em;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+.heroContent {
+  max-width: 1240px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .heroContent {
+    flex-direction: column;
+  }
+
+  .heroContent img {
+    width: auto;
+  }
+}
+
+.productSection {
+  background-color: #fff8f8;
+  padding: 0 12px;
+}
+
+html[data-theme="dark"] .productSection {
+  background-color: #1e1e1e;
+}
+.communitySection {
+  background-color: #feece5;
+  padding: 0 12px 50px;
+}
+
+html[data-theme="dark"] .communitySection {
+  background-color: #1e1e1e;
+}
+
+.productCardsWrapper {
+  max-width: 1240px;
+  width: 100%;
+  gap: 40px;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0px;
+}
+
+.productCard {
+  width: calc(50% - 20px);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0px 18px 42px 0px var(--shadow);
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 996px) {
+  .productCard {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 1.75em;
+}
+
+screen-card {
+  margin: 0px auto;
+  max-width: 1240px;
+  height: 100%;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
