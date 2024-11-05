@@ -25,7 +25,6 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         { type: "doc", id: "introduction/protocol-overview", label: "Ceramic Protocol" },
-        { type: "doc", id: "introduction/orbisdb-overview", label: "OrbisDB" },
         { type: "doc", id: "introduction/composedb-overview", label: "ComposeDB" },
         { type: "doc", id: "introduction/did-overview", label: "Decentralized Identifiers" }
       ]
@@ -170,7 +169,7 @@ const sidebars: SidebarsConfig = {
       },
       items: [
         { type: "doc", id: "protocol/js-ceramic/networking/networks", label: "Networks" },
-        {type: "doc", id: "protocol/js-ceramic/networking/data-feed-api", label: "Data Feed API" },
+        { type: "doc", id: "protocol/js-ceramic/networking/data-feed-api", label: "Data Feed API" },
       ]
     },
     {
@@ -418,7 +417,6 @@ const sidebars: SidebarsConfig = {
       href: "https://composedb.js.org/docs/0.6.x/category/public-apis"
     }
   ],
-  wheel: [{ type: "doc", id: "wheel/wheel-reference", label: "Wheel Reference" }],
   dids: [
     { type: "doc", id: "dids/introduction", label: "Introduction" },
     {
@@ -440,27 +438,6 @@ const sidebars: SidebarsConfig = {
     },
     { type: "link", label: "DIDs API", href: "https://did.js.org/docs/api/modules/dids" }
   ],
-  ecosystem: [
-    {
-      type: "doc",
-      id: "ecosystem/community",
-      label: "Overview"
-    }
-  ],
-  orbisdb: [
-    {
-      type: "doc",
-      id: "orbisdb/overview",
-      label: "OrbisDB Overview"
-    },
-    {
-      type: "doc",
-      id: "orbisdb/orbisdb-sdk",
-      label: "OrbisDB SDK"
-    },
-    
-  ],
-
 
   // But you can create a sidebar manually
   /*

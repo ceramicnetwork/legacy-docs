@@ -1,12 +1,10 @@
 import React from "react";
 import clsx from "clsx";
-import Link from "@docusaurus/Link";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Link from "@docusaurus/Link"; import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomeNavBox from "../components/homepage/get-started";
 import HomeNavStart from "../components/homepage/start-building";
 import HomeNavUtils from "../components/homepage/tools-utilities";
-import HomeCommunity from "../components/homepage/community";
 import styles from "./index.module.css";
 
 function HomepageHeader() {
@@ -34,31 +32,6 @@ export default function Home() {
         <HomepageHeader />
         <div className={styles.productSection}>
           <div className={styles.productCardsWrapper}>
-            <div
-              className={styles.productCard}
-              style={{
-                background: "linear-gradient(215deg, var(--ifm-color-primary) -33%, var(--box-color) 50%)"
-              }}
-            >
-              <h3>Build with OrbisDB</h3>
-              <div>OrbisDB is an advanced decentralized database built on the Ceramic Data Network. It comes with a set of
-                plugins allowing unlimited customization options.</div>
-              <div
-                style={{
-                  display: "flex",
-                  columnGap: "24px",
-                  rowGap: "4px",
-                  width: "100%",
-                  flexWrap: "wrap",
-                  padding: "16px 0 0",
-                  fontWeight: "500"
-                }}
-              >
-                <div>
-                <a href="/docs/orbisdb/overview">Getting Started with OrbisDB → </a>
-                </div>
-              </div>
-            </div>
             <div
               className={styles.productCard}
               style={{
@@ -110,15 +83,6 @@ export default function Home() {
               <HomeNavUtils />
             </div>
           </screen-card>
-        </div>
-        <div className={styles.communitySection}>
-          <div className={styles.productCardsWrapper}>
-            <div style={{ width: "100%" }}>
-              <header>Join our Community</header>
-              <p>Ceramic has a large and active community of developers. Here's how you can connect with us:</p>
-              <HomeCommunity />
-            </div>
-          </div>
         </div>
       </Layout>
     </div>
