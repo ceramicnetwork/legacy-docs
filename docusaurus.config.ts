@@ -305,7 +305,7 @@ const config: Config = {
             from: "/protocol/accounts/object-capabilities/"
           },
           {
-            to: "/docs/introduction/intro",
+            to: "/docs/documentation/intro",
             from: "/docs/introduction/next-steps/"
           },
           {
@@ -422,7 +422,7 @@ const config: Config = {
       },
       items: [
         {
-          to: "docs/documentation/introduction",
+          to: "docs/documentation/intro",
           label: "Developer Guide"
         },
         {

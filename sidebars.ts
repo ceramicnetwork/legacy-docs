@@ -21,7 +21,7 @@ const sidebars: SidebarsConfig = {
       label: "Overview",
       link: {
         type: "doc",
-        id: "introduction/intro"
+        id: "documentation/intro"
       },
       items: [
         { type: "doc", id: "introduction/protocol-overview", label: "Ceramic Protocol" },
@@ -34,7 +34,7 @@ const sidebars: SidebarsConfig = {
     { type: "doc", id: "introduction/ceramic-roadmap", label: "Roadmap" }
   ],
   documentation: [
-    { type: "doc", id: "documentation/introduction", label: "Introduction" },
+    { type: "doc", id: "documentation/intro", label: "Introduction" },
     {
       type: "category",
       collapsed: true,
