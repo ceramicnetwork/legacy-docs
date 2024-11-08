@@ -422,16 +422,8 @@ const config: Config = {
       },
       items: [
         {
-          to: "docs/protocol/js-ceramic/overview",
-          label: "JS-Ceramic"
-        },
-        {
-          to: "docs/composedb/getting-started",
-          label: "ComposeDB"
-        },
-        {
-          to: "docs/dids/introduction",
-          label: "Decentralized Identifiers"
+          to: "docs/documentation/introduction",
+          label: "Developer Guide"
         },
         {
           href: "https://github.com/ceramicnetwork/docs-docusaurus",
