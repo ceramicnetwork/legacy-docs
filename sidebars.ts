@@ -434,7 +434,6 @@ const sidebars: SidebarsConfig = {
       collapsed: true,
       label: "Decentralized Identifiers",
       items: [
-        { type: "doc", id: "dids/introduction", label: "Introduction" },
         {
           type: "category",
           collapsed: true,
