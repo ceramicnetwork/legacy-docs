@@ -4,15 +4,6 @@ import styles from "./homeNavBoxes.module.css";
 
 const FeatureList = [
   {
-    title: "OrbisDB →",
-    items: [
-      {
-        url: "docs/orbisdb/overview",
-        text: "An advanced decentralized database built on Ceramic, with plugins for unlimited customization."
-      }
-    ]
-  },
-  {
     title: "Example App →",
     items: [
       {
@@ -26,7 +17,16 @@ const FeatureList = [
     items: [
       { url: "docs/composedb/getting-started", text: "Build composable dApps using a decentralised graph database." }
     ]
-  }
+  },
+  {
+    title: "ComposeDB Sandbox →",
+    items: [
+      {
+        url: "docs/composedb/sandbox",
+        text: "Interact with data stored in the Ceramic Network right in your browser."
+      }
+    ]
+  },
 ];
 
 function Feature({ title, icon, items }) {

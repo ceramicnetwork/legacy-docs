@@ -12,24 +12,6 @@ const FeatureList = [
       }
     ]
   },
-  {
-    title: "ComposeDB Sandbox →",
-    items: [
-      {
-        url: "docs/composedb/sandbox",
-        text: "Interact with data stored in the Ceramic Network right in your browser."
-      }
-    ]
-  },
-  {
-    title: "Ceramic Ecosystem →",
-    items: [
-      {
-        url: "https://threebox.notion.site/Ceramic-Ecosystem-Directory-a3a7a58f81544d33ad3feb84368775d4",
-        text: "Explore the innovative projects and tools built on Ceramic Network."
-      }
-    ]
-  }
 ];
 
 function Feature({ title, icon, items }) {

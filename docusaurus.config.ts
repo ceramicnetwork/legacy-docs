@@ -305,7 +305,7 @@ const config: Config = {
             from: "/protocol/accounts/object-capabilities/"
           },
           {
-            to: "/docs/introduction/intro",
+            to: "/docs/documentation/intro",
             from: "/docs/introduction/next-steps/"
           },
           {
@@ -422,62 +422,20 @@ const config: Config = {
       },
       items: [
         {
-          to: "docs/introduction/intro",
+          to: "docs/documentation/intro",
           label: "Introduction"
         },
         {
-          label: "Developer Tools",
-
-          items: [
-            {
-              to: "docs/orbisdb/overview",
-              label: "OrbisDB"
-            },
-            {
-              to: "docs/composedb/getting-started",
-              label: "ComposeDB"
-            },
-            {
-              to: "docs/wheel/wheel-reference",
-              label: "Wheel"
-            },
-            {
-              to: "docs/dids/introduction",
-              label: "Decentralized Identifiers"
-            }
-          ]
+          to: "docs/protocol/js-ceramic/overview",
+          label: "JS-Ceramic"
         },
         {
-          label: "Protocol",
-
-          items: [
-            {
-              to: "docs/protocol/js-ceramic/overview",
-              label: "JS-Ceramic"
-            }
-          ]
+          to: "docs/composedb/getting-started",
+          label: "ComposeDB"
         },
         {
-          label: "Ecosystem",
-
-          items: [
-            {
-              to: "docs/ecosystem/community",
-              label: "Overview"
-            },
-            {
-              href: "https://threebox.notion.site/threebox/Ceramic-Ecosystem-Directory-a3a7a58f81544d33ad3feb84368775d4",
-              label: "Ecosystem Directory"
-            },
-            {
-              href: "https://forum.ceramic.network/",
-              label: "Forum"
-            },
-            {
-              href: "https://blog.ceramic.network/",
-              label: "Blog"
-            }
-          ]
+          to: "docs/dids/installation",
+          label: "Decentralised Identifiers"
         },
         {
           href: "https://github.com/ceramicnetwork/docs-docusaurus",
@@ -488,59 +446,6 @@ const config: Config = {
     },
     footer: {
       style: "dark",
-      links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Introduction",
-              to: "/docs/introduction/intro"
-            },
-            {
-              label: "ComposeDB",
-              to: "/docs/composedb/getting-started"
-            },
-            {
-              label: "Protocol",
-              to: "/docs/protocol/js-ceramic/overview"
-            }
-          ]
-        },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Forum",
-              href: "https://forum.ceramic.network/"
-            },
-            {
-              label: "Discord",
-              href: "http://chat.ceramic.network/"
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/ceramicnetwork"
-            }
-          ]
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "GitHub",
-              href: "https://github.com/ceramicnetwork/docs-docusaurus"
-            },
-            {
-              label: "Roadmap",
-              href: "https://github.com/orgs/ceramicstudio/projects/2/views/1"
-            },
-            {
-              label: "CIPs",
-              href: "https://forum.ceramic.network/c/cips/12"
-            }
-          ]
-        }
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} 3Box Labs.`
     },
     prism: {
