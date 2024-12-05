@@ -1,4 +1,4 @@
-# Running Ceramic nodes in the cloud environment
+# Running Ceramic nodes in the cloud
 
 ---
 
