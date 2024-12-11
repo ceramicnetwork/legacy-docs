@@ -30,7 +30,6 @@ const sidebars: SidebarsConfig = {
       ]
     },
     { type: "doc", id: "introduction/technical-reqs", label: "Technical Requirements" },
-    { type: "link", label: "Try it out!", href: "/docs/composedb/sandbox" },
     { type: "doc", id: "introduction/ceramic-roadmap", label: "Roadmap" }
   ],
   documentation: [
@@ -212,16 +211,6 @@ const sidebars: SidebarsConfig = {
             id: "composedb/getting-started"
           },
           items: [
-            {
-              type: "doc",
-              id: "composedb/sandbox",
-              label: "ComposeDB Sandbox"
-            },
-            {
-              type: "doc",
-              id: "composedb/create-ceramic-app",
-              label: "Scaffold a new Ceramic app"
-            },
             {
               type: "doc",
               id: "composedb/set-up-your-environment",
