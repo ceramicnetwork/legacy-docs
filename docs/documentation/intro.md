@@ -8,6 +8,7 @@ Ceramic is a decentralized data network that powers an ecosystem of interoperabl
 ## Introduction to Ceramic
 ---
 
+
 - Head to [**OrbisDB**](https://useorbis.com/) to learn more about the database products built on Ceramic that allow you to easily interact with the data stored on Ceramic using a simple and familiar SQL-based interface.
 
 - Head to the [**ComposeDB**](../composedb/introduction.mdx) section to interact with Ceramic data using a graph database interface.
